@@ -18,7 +18,6 @@ def operar_carro(carro : Carro):
             t = float(input("Informe o tempo: "))
             carro1.acelerar(v, t)
 
-
         print('Infos atuais do carro')
         print(carro1)
 

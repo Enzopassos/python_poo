@@ -5,7 +5,6 @@ class Carro:
     odometro = 0.0
     motor_on = False
 
-
     def __init__(self, modelo : str, marca : str, cor : str,
                        odometro : float, motor : bool):
         self.modelo = modelo
